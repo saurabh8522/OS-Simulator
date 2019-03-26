@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link href="css/dining.css" rel="stylesheet" />
+	<script type="text/javascript" src="../Index/js/scrolloverflow.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="../Index/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../Index/css/bootswatch.css" />
+   	<script type="text/javascript" src="../Index/js/jquery.fullPage.js"></script>
+    <script type="text/javascript">
+    	$(document).ready(function() {
+    		$('#fullpage').fullpage({
+    			sectionsColor: ['#00000'],
+    			anchors: ['anime'],
+    			menu: '#menu',
+    			easingcss3: 'cubic-bezier(0.175, 0.885, 0.320, 1.275)'
+    		});
+    	});
+      </script>
+</head>
+
+<body>
+
+    <br>
+    <div id="fullpage">
+		<div class="section " class="section0">
+			<div class="container">
+		        <div class="jumbotron">
+		            <h1 class="display-4"><font color="black"><b> Simulation of Dining Philosophers Problem</b></font></h1>
+		            <p class="lead"><font color="black">A classical problem to demonstrate the programming of concurrent or parallel processes</font></p>
+		            <hr class="my-4">
+		            <p><font color="black">Consider five philosophers seated around a circular table, who spend their lives just thinking and eating. The table has a plate of spaghetti. However, there are only five chopsticks available. Each philosopher thinks. When he gets hungry, he picks up the two chopsticks that are closest to him. If a philosopher can pick up both chopsticks, he eats for a while. After a philosopher finishes eating, he puts down the chopsticks and starts to think.</font></p>
+		        </div>
+
+	        <br>
+	    	</div>
+		</div>
+		<div class="section" id="section1">
+			<div class="container" id="anim">
+				<!-- <img id="table" src="includes/dining_items/table.jpg" >
+				<img id="food" src="includes/dining_items/noodles.jpg" > -->
+
+				<button type="button" class="btn btn-secondary btn-lg btn-block" onclick="simulate()">Next</button>
+				<!-- <button type="button" class="next" onclick="simulate()">Next</button> -->
+
+				<div>
+					<img id="phil1" src="includes/dining_items/thinking.jpg" >
+					<img id="phil2" src="includes/dining_items/thinking.jpg" >
+					<img id="phil3" src="includes/dining_items/thinking.jpg" >
+					<img id="phil4" src="includes/dining_items/thinking.jpg" >
+					<img id="phil5" src="includes/dining_items/thinking.jpg" >
+				</div>
+
+				<!-- <div id="c4"></div>
+				<div id="c0"></div>
+				<div id="c1"></div>
+				<div id="c2"></div>
+				<div id="c3"></div> -->
+
+				<!-- <img id="think" src="includes/dining_items/thinking.jpg" align="right"><div id="thinkt">Thinking</div>
+				<img id="hungry" src="includes/dining_items/hungry.jpg" align="right"><div id="hungryt">Hungry</div>
+				<img id="eating" src="includes/dining_items/eating.jpg" align="right"><div id="eatingt">Eating</div> -->
+
+				<div id="p1">Philosopher 1</div>
+				<div id="p2">Philosopher 2</div>
+				<div id="p3">Philosopher 3</div>
+				<div id="p4">Philosopher 4</div>
+				<div id="p5">Philosopher 5</div>
+
+				<div id="random">Random number generated : 0</div>
+
+				<p id="ph1">Thinking</p>
+				<p id="ph2">Thinking</p>
+				<p id="ph3">Thinking</p>
+				<p id="ph4">Thinking</p>
+				<p id="ph5">Thinking</p>
+			</div>
+		</div>
+	<script>
+
+		var phil = [0,0,0,0,0], chopsticks = [0,0,0,0,0];
+
+		function simulate()
+		{
+			var n = Math.floor((Math.random() * 5) + 1);
+
+			document.getElementById("random").innerHTML = "Random number generated : "+n;
+			if(phil[n-1]==0)
+			{
+				phil[n-1] = 1;
+				document.getElementById("phil"+n).src = "includes/dining_items/hungry.jpg";
+				document.getElementById("ph"+n).innerHTML = "Hungry";
+			}
+			else if(phil[n-1]==1)
+			{
+				if(chopsticks[n-1]==0 && chopsticks[n%5]==0)
+				{
+					chopsticks[n-1]=1;
+					chopsticks[n%5]=1;
+					phil[n-1] = 2;
+					document.getElementById("phil"+n).src = "includes/dining_items/eating.jpg";
+					// document.getElementById("c"+(n+1)%5).style.display = "none";
+					// document.getElementById("c"+(n)%5).style.display = "none";
+					document.getElementById("ph"+n).innerHTML = "Eating";
+				}
+				else
+				{
+					alert("Philosopher " + n + " cannot eat now!");
+				}
+			}
+			else if(phil[n-1]==2)
+			{
+					chopsticks[n-1]=0;
+					chopsticks[n%5]=0;
+					phil[n-1] = 0;
+					document.getElementById("phil"+n).src = "includes/dining_items/thinking.jpg";
+					// document.getElementById("c"+n%5).style.display = "block";
+					// document.getElementById("c"+(n+1)%5).style.display = "block";
+					document.getElementById("ph"+n).innerHTML = "Thinking";
+			}
+		}
+
+	</script>
+
+</body>
+
+</html>
