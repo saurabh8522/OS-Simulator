@@ -3,8 +3,8 @@
 	width:150px;
 	height:150px;
 	position: absolute;
-	top: 162%;
-	left: 10%;
+	top: 135%;
+	left: 25%;
 	border-radius: 50%;
 
 }
@@ -13,8 +13,8 @@
 	width:150px;
 	height:150px;
 	position: absolute;
-	top: 162%;
-	left: 75%;
+	top: 135%;
+	left: 58%;
 	border-radius: 50%;
 
 }
@@ -45,66 +45,80 @@
 
 
 #empty1 {
-	width: 80px;
-	height: 80px;
-	top: 136%;
-	left: 24%;
+	width: 120px;
+	height: 120px;
+	top: 170%;
+	left: 0.5%;
 	position: absolute;
 }
 
 #empty2 {
-	width: 80px;
-	height: 80px;
-	top: 136%;
-	left: 30%;
+	width: 120px;
+	height: 120px;
+	top: 170%;
+	left: 10.5%;
 	position: absolute;
 }
 
 #empty3 {
-	width: 80px;
-	height: 80px;
-	top: 136%;
-	left: 36%;
+	width: 120px;
+	height: 120px;
+	top: 170%;
+	left: 20.5%;
 	position: absolute;
 }
 
 #empty4 {
-	width: 80px;
-	height: 80px;
-	top: 136%;
-	left: 42%;
+	width: 120px;
+	height: 120px;
+	top: 170%;
+	left: 30.5%;
 	position: absolute;
 }
 
 #empty5 {
-	width: 80px;
-	height: 80px;
-	top: 136%;
-	left: 48%;
+	width: 120px;
+	height: 120px;
+	top: 170%;
+	left: 40.5%;
 	position: absolute;
 }
 
 #empty6 {
-	width: 80px;
-	height: 80px;
-	top: 136%;
-	left: 54%;
+	width: 120px;
+	height: 120px;
+	top: 170%;
+	left: 50.5%;
 	position: absolute;
 }
 
 #empty7{
-	width: 80px;
-	height: 80px;
-	top: 136%;
-	left: 60%;
+	width: 120px;
+	height: 120px;
+	top: 170%;
+	left: 60.5%;
 	position: absolute;
 }
 
 #empty8{
-	width: 80px;
-	height: 80px;
-	top: 136%;
-	left: 66%;
+	width: 120px;
+	height: 120px;
+	top: 170%;
+	left: 70.5%;
+	position: absolute;
+}
+#empty9{
+	width: 120px;
+	height: 120px;
+	top: 170%;
+	left: 80.5%;
+	position: absolute;
+}
+#empty10{
+	width: 120px;
+	height: 120px;
+	top: 170%;
+	left: 90.5%;
 	position: absolute;
 }
 
@@ -144,7 +158,7 @@
 #count {
 	font-size: 30px;
     position: absolute;
-    top: 180%;
+    top: 160%;
     left: 46.3%;
     transform: translate(-50%, -50%);
 	background: orange;
