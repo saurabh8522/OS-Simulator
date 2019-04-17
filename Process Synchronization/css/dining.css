@@ -3,7 +3,7 @@ body {
 }
 #table {
   position: absolute;
-  top: 143%;
+  top: 43%;
   left: 50%;
   width:500px;
   height:500px;
@@ -14,7 +14,7 @@ body {
 
 #phil1 {
   position: absolute;
-  top: 153%;
+  top: 53%;
   left: 10%;
   width:150px;
   height:150px;
@@ -25,7 +25,7 @@ body {
 
 #phil2 {
   position: absolute;
-  top: 153%;
+  top: 53%;
   left: 30%;
   width:150px;
   height:150px;
@@ -36,7 +36,7 @@ body {
 
 #phil3 {
   position: absolute;
-  top: 153%;
+  top: 53%;
   left: 50%;
   width:150px;
   height:150px;
@@ -47,7 +47,7 @@ body {
 
 #phil4 {
   position: absolute;
-  top: 153%;
+  top: 53%;
   left: 70%;
   width:150px;
   height:150px;
@@ -58,7 +58,7 @@ body {
 
 #phil5 {
   position: absolute;
-  top: 153%;
+  top: 53%;
   left: 90%;
   width:150px;
   height:150px;
@@ -69,7 +69,7 @@ body {
 
 #food {
   position: absolute;
-  top: 143%;
+  top: 43%;
   left: 50%;
   width:120px;
 	height:120px;
@@ -90,7 +90,7 @@ span {
 	width: 5px;
     height: 60px;
 	position: absolute;
-	top: 155%;
+	top: 55%;
 	left: 43%;
     background-color: #DAA520;
     -ms-transform: rotate(40deg);
@@ -102,7 +102,7 @@ span {
 	width: 5px;
     height: 60px;
 	position: absolute;
-	top: 132%;
+	top: 32%;
 	left: 39%;
     background-color: #DAA520;
     -ms-transform: rotate(100deg);
@@ -114,7 +114,7 @@ span {
 	width: 5px;
     height: 60px;
 	position: absolute;
-	top: 116%;
+	top: 16%;
 	left: 49%;
     background-color: #DAA520;
     -ms-transform: rotate(1deg);
@@ -126,7 +126,7 @@ span {
 	width: 5px;
     height: 60px;
 	position: absolute;
-	top: 128%;
+	top: 28%;
 	left: 58.5%;
     background-color: #DAA520;
     -ms-transform: rotate(60deg);
@@ -150,7 +150,7 @@ span {
 	width: 200px;
     height: 90px;
 	position: absolute;
-	top: 190%;
+	top: 80%;
 	left: 80%;
     /* background-color: #FFFFFF; */
 	font-size: 40px;
@@ -160,7 +160,7 @@ span {
 #random {
 	font-size: 25px;
     position: absolute;
-    top: 200%;
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
 	background: #ff00aa;
@@ -171,7 +171,7 @@ span {
 #p1 {
 	font-size: 20px;
     position: absolute;
-    top: 135%;
+    top: 35%;
     left: 10%;
     transform: translate(-50%, -50%);
 	background: #ff00aa;
@@ -182,7 +182,7 @@ span {
 #p2 {
 	font-size: 20px;
     position: absolute;
-    top: 135%;
+    top: 35%;
     left: 30%;
     transform: translate(-50%, -50%);
 	background: #ff00aa;
@@ -193,7 +193,7 @@ span {
 #p3 {
 	font-size: 20px;
     position: absolute;
-    top: 135%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
 	background: #ff00aa;
@@ -204,7 +204,7 @@ span {
 #p4 {
 	font-size: 20px;
     position: absolute;
-    top: 135%;
+    top: 35%;
     left: 70%;
     transform: translate(-50%, -50%);
 	background: #ff00aa;
@@ -216,7 +216,7 @@ span {
 #p5 {
 	font-size: 20px;
     position: absolute;
-    top: 135%;
+    top: 35%;
     left: 90%;
     transform: translate(-50%, -50%);
 	background: #ff00aa;
@@ -226,7 +226,7 @@ span {
 
 #think {
 	  position: absolute;
-	  top: 163%;
+	  top: 63%;
 	  left: 85%;
 	  width:60px;
 	  height:60px;
@@ -237,7 +237,7 @@ span {
 
 #hungry {
 	  position: absolute;
-	  top: 173%;
+	  top: 73%;
 	  left: 85%;
 	  width:60px;
 	  height:60px;
@@ -248,7 +248,7 @@ span {
 
 #eating {
 	  position: absolute;
-	  top: 183%;
+	  top: 83%;
 	  left: 85%;
 	  width:60px;
 	  height:60px;
@@ -259,7 +259,7 @@ span {
 
 #thinkt {
 	  position: absolute;
-	  top: 166%;
+	  top: 66%;
 	  left: 90%;
 	  width:60px;
 	  height:60px;
@@ -270,7 +270,7 @@ span {
 
 #hungryt {
 	  position: absolute;
-	  top: 176%;
+	  top: 76%;
 	  left: 90%;
 	  width:60px;
 	  height:60px;
@@ -281,7 +281,7 @@ span {
 
 #eatingt {
 	  position: absolute;
-	  top: 186%;
+	  top: 86%;
 	  left: 90%;
 	  width:60px;
 	  height:60px;
@@ -292,48 +292,48 @@ span {
 
 #ph1 {
 	position:absolute;
-	bottom:140px;
+	bottom:40px;
 	left:7%;
-	top: 167%;
+	top: 67%;
 	font-size: 20px;
 }
 
 #ph2 {
 	position:absolute;
-	bottom:140px;
+	bottom:40px;
 	left:27%;
-	top: 167%;
+	top: 67%;
 	font-size: 20px;
 }
 
 #ph3 {
 	position:absolute;
-	bottom:140px;
+	bottom:40px;
 	left:47%;
-	top: 167%;
+	top: 67%;
 	font-size: 20px;
 }
 
 #ph4 {
 	position:absolute;
-	bottom:140px;
+	bottom:40px;
 	left:67%;
-	top: 167%;
+	top: 67%;
 	font-size: 20px;
 }
 
 #ph5 {
 	position:absolute;
-	bottom:140px;
+	bottom:40px;
 	left:87%;
-	top: 167%;
+	top: 67%;
 	font-size: 20px;
 }
 #chopsticktable{
 	position: absolute;
 	left: 0%;
 	bottom: 0px;
-	top: 170%;
+	top: 70%;
 	background-color: #FF69B4;
 	margin-top:2%;
   margin-left:5%;
