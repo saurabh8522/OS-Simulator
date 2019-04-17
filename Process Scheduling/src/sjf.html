@@ -4,17 +4,17 @@
     <title>  SJF Scheduling </title>
 
 	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	
+
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="../../Index/css/bootswatch.css" />
     <link rel="stylesheet" type="text/css" href="../css/index.css"></link>
     <script type="text/javascript" src="../js/index.js"></script>
 <link href="css/resume.min.css" rel="stylesheet">
-	
+
 </head>
 <body >
-	
+
     <br>
 	<div class="container">
 		<!-- Input section -->
@@ -35,28 +35,17 @@
 				</div>
 			</div>
             <button type="submit" id="add" class="btn btn-primary" style="margin-left: 36px" onclick="addToList()">Add</button>
-			
-			
+
+
 			<button type="submit" class="btn btn-primary" style="margin-left: 36px; float: right;" onclick="showOutput(1)">Schedule</button>
 		</div>
 		<!-- Gantt Chart -->
 		<div style="margin-top: 150px;">
-			<h2 id ="chart-header" style="text-align:center;"></h2>
-			<br />
-			<div id="gantt"></div>
-			<div id="timer"></div>
-			<br /><br />
-			<div>
-				<div style="width: 50%; text-align:center;float:left; font-size: 20px;" id="awt1"></div>
-				<div style="width: 50%; text-align:center;float:left; font-size: 20px;" id="atat1"></div>
-            </div>
+			
         </div>
 		<br>
 		<!-- CPU Operations -->
-		<div style="margin-top: 100px;">
-			<h3 id="operations-heading" style="text-align:center;"> </h3>
-			<div id="operations"></div>
-		</div>
+
 		<!-- Table -->
 		<div style="margin-top: 50px;">
 			<h2 id="table-heading" style="text-align:center;"></h2>
@@ -66,6 +55,19 @@
 					<tbody id="ptable"></tbody>
 				</table>
 			</div>
+      <div style="margin-top: 100px;">
+  			<h3 id="operations-heading" style="text-align:center;"> </h3>
+  			<div id="operations"></div>
+  		</div>
+      <h2 id ="chart-header" style="text-align:center;"></h2>
+			<br />
+			<div id="gantt"></div>
+			<div id="timer"></div>
+			<br /><br />
+			<div>
+				<div style="width: 50%; text-align:center;float:left; font-size: 20px;" id="awt1"></div>
+				<div style="width: 50%; text-align:center;float:left; font-size: 20px;" id="atat1"></div>
+            </div>
 		</div>
     </div>
 </body>

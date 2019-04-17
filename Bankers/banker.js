@@ -2,7 +2,7 @@ var res,pro;
         var resource;
 			function BuildFormFields($amount) // For Resorce allocation
 			{
-                
+
                 res = $amount;
                 if(res<0)
                 	alert("Invalid Inputs");
@@ -13,7 +13,7 @@ var res,pro;
 				for ($i = 0; $i < $amount; $i++) {
 					$item = document.createElement('div');
 					$item.style.margin = '10px';
-				
+
                     $field = document.createElement('label');
                     $field.innerHTML = 'Resource '+$i;
 					$item.appendChild($field);
@@ -136,7 +136,7 @@ var res,pro;
 						var tab_need = document.getElementById("tab_need");
 						var row = tab_need.insertRow(0);
 						var cell = row.insertCell(0);
-						cell.innerHTML = "<b>Need</b>";
+						cell.innerHTML = "<b><strong>Need</strong></b>";
                         var pro_head = tab_need.insertRow(1);
                         var cell = pro_head.insertCell(0);
                         cell.innerHTML = "<b>Process</b>";
@@ -160,7 +160,7 @@ var res,pro;
 						var tab_alloc = document.getElementById("tab_alloc");
 						var row = tab_alloc.insertRow(0);
 						var cell = row.insertCell(0);
-						cell.innerHTML = "<b>Allocation</b>";
+						cell.innerHTML = "<b><strong>Allocation</strong></b>";
                         var alloc_head = tab_alloc.insertRow(1);
                         var cell = alloc_head.insertCell(0);
                         cell.innerHTML = "<b>Process</b>";
@@ -193,7 +193,7 @@ var res,pro;
 						{
 							var exec1 = exec // exec1 is compared with exec at the end of the while loop to check for deadlock
                             var li = document.createElement("li");
-                            li.appendChild(document.createTextNode("Iteration "+ iter));
+                            li.appendChild(document.createTextNode("step "+ iter));
                             prints.appendChild(li);
                             var ul1 = document.createElement("ul");
 							for (i = 0; i < pro; i++)

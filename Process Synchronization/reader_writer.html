@@ -13,6 +13,16 @@
 <body bgcolor="#FFFFFF">
   <!-- jQuery (necessary for Bootstrap/home/saurabh/4th sem/OS LAB/OS-Simulator/Process Synchronization/dining.html's JavaScript plugins) -->
   <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="../Index/index.html">Operating System Simulator</a>
+    <a class="navbar-brand " href="rw_wiki.html">Wiki</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation" style="background: ">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+
+  </nav>
   <script src="js/bootstrap.min.js"></script>
   <div class="container-fluid">
     <center><h1><font color="black">Reader-Writer Problem </font></h1></center>
@@ -236,6 +246,11 @@
               // change.innerHTML ="Writing Lock: 1"
               var c= 1;
               document.getElementById("w"+c).innerHTML="Writing...";
+              document.getElementById("r1").innerHTML="IDLE";
+              document.getElementById("r2").innerHTML="IDLE";
+              document.getElementById("r3").innerHTML="IDLE";
+              document.getElementById("r4").innerHTML="IDLE";
+              document.getElementById("r5").innerHTML="IDLE";
               mutex =0;
             }
             if(document.forms[0].elements[3].checked == true)
@@ -245,6 +260,11 @@
               // change.innerHTML ="Writing Lock: 2"
               var c= 2;
               document.getElementById("w"+c).innerHTML="Writing...";
+              document.getElementById("r1").innerHTML="IDLE";
+              document.getElementById("r2").innerHTML="IDLE";
+              document.getElementById("r3").innerHTML="IDLE";
+              document.getElementById("r4").innerHTML="IDLE";
+              document.getElementById("r5").innerHTML="IDLE";
               mutex =1;
             }
             if(document.forms[0].elements[5].checked == true)
@@ -254,6 +274,11 @@
               // change.innerHTML ="Writing Lock: 3"
               var c= 3;
               document.getElementById("w"+c).innerHTML="Writing...";
+              document.getElementById("r1").innerHTML="IDLE";
+              document.getElementById("r2").innerHTML="IDLE";
+              document.getElementById("r3").innerHTML="IDLE";
+              document.getElementById("r4").innerHTML="IDLE";
+              document.getElementById("r5").innerHTML="IDLE";
               mutex =2;
             }
             if(document.forms[0].elements[7].checked == true)
@@ -263,6 +288,11 @@
               // change.innerHTML ="Writing Lock: 4"
               var c= 4;
               document.getElementById("w"+c).innerHTML="Writing...";
+              document.getElementById("r1").innerHTML="IDLE";
+              document.getElementById("r2").innerHTML="IDLE";
+              document.getElementById("r3").innerHTML="IDLE";
+              document.getElementById("r4").innerHTML="IDLE";
+              document.getElementById("r5").innerHTML="IDLE";
               mutex =3;
             }
             if(document.forms[0].elements[9].checked == true)
@@ -272,6 +302,11 @@
               // change.innerHTML ="Writing Lock: 5"
               var c= 5;
               document.getElementById("w"+c).innerHTML="Writing...";
+              document.getElementById("r1").innerHTML="IDLE";
+              document.getElementById("r2").innerHTML="IDLE";
+              document.getElementById("r3").innerHTML="IDLE";
+              document.getElementById("r4").innerHTML="IDLE";
+              document.getElementById("r5").innerHTML="IDLE";
               mutex =4;
             }
             console.log(mutex);
