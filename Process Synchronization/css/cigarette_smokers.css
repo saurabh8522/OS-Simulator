@@ -23,8 +23,8 @@ span {
 
 #smoker1 {
   position: absolute;
-  top: 133%;
-  left: 35%;
+  top: 80%;
+  left: 28%;
   width:100px;
   height:100px;
   /* bring your own prefixes */
@@ -34,7 +34,7 @@ span {
 
 #smoker2 {
   position: absolute;
-  top: 112%;
+  top: 80%;
   left: 49%;
   width:100px;
   height:100px;
@@ -45,8 +45,8 @@ span {
 
 #smoker3 {
   position: absolute;
-  top: 135%;
-  left: 64.5%;
+  top: 80%;
+  left: 72%;
   width:100px;
   height:100px;
   /* bring your own prefixes */
@@ -56,7 +56,7 @@ span {
 
 #non-smoker {
   position: absolute;
-  top: 173%;
+  top: 19%;
   left: 50%;
   width:100px;
   height:100px;
@@ -68,7 +68,7 @@ span {
 #s1 {
 	font-size: 20px;
     position: absolute;
-    top: 127%;
+    top: 65%;
     left: 28%;
     transform: translate(-50%, -50%);
 	background: #4E5D6C;
@@ -79,7 +79,7 @@ span {
 #s2 {
 	font-size: 20px;
     position: absolute;
-    top: 100%;
+    top: 65%;
     left: 49%;
     transform: translate(-50%, -50%);
 	background: #4E5D6C;
@@ -90,7 +90,7 @@ span {
 #s3 {
 	font-size: 20px;
     position: absolute;
-    top: 131%;
+    top: 65%;
     left: 72%;
     transform: translate(-50%, -50%);
 	background: #4E5D6C;
@@ -101,7 +101,7 @@ span {
 #ns {
 	font-size: 20px;
     position: absolute;
-    top: 185%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
 	background: #4E5D6C;
@@ -113,7 +113,7 @@ span {
 	width: 200px;
     height: 90px;
 	position: absolute;
-	top: 107%;
+	top: 7%;
 	left: 4%;
     background-color: #4CAF50;
 	font-size: 40px;
@@ -123,8 +123,8 @@ span {
 #t {
 	font-size: 20px;
     position: absolute;
-    top: 133%;
-    left: 42%;
+    top: 90%;
+    left: 28%;
     transform: translate(-50%, -50%);
 	background: #DAA520;
 	padding: 7px 7px 7px 7px;
@@ -134,7 +134,7 @@ span {
 #p {
 	font-size: 20px;
     position: absolute;
-    top: 123%;
+    top: 90%;
     left: 49%;
     transform: translate(-50%, -50%);
 	background: #DAA520;
@@ -145,8 +145,8 @@ span {
 #m {
 	font-size: 20px;
     position: absolute;
-    top: 134%;
-    left: 57.5%;
+    top: 90%;
+    left: 72%;
     transform: translate(-50%, -50%);
 	background: #DAA520;
 	padding: 7px 7px 7px 7px;
@@ -156,7 +156,7 @@ span {
 #su1 {
 	font-size: 20px;
     position: absolute;
-    top: 158%;
+    top: 27%;
     left: 55%;
 	width: 85px;
 	height: 45px;
@@ -169,7 +169,7 @@ span {
 #su2 {
 	font-size: 20px;
     position: absolute;
-    top: 158%;
+    top: 27%;
     left: 45%;
 	width: 85px;
 	height: 45px;
@@ -182,8 +182,8 @@ span {
 #random {
 	font-size: 25px;
     position: absolute;
-    top: 145%;
-    left: 15%;
+    top: 55%;
+    left: 38%;
     transform: translate(-50%, -50%);
 	background: #4E5D6C;
 	padding: 7px 7px 7px 7px;
@@ -193,8 +193,8 @@ span {
 #smoke {
 	font-size: 30px;
     position: absolute;
-    top: 167%;
-    left: 82%;
+    top: 55%;
+    left: 65%;
 	width: 300px;
 	height: 55px;
     transform: translate(-50%, -50%);
@@ -206,27 +206,27 @@ span {
 #ph1 {
 	font-size: 20px;
 	position:absolute; 
-	left:30px;
-	top: 160%;
+	left:42%;
+	top: 30%;
 }
 
 #ph2 {
 	font-size: 20px;
 	position:absolute; 
-	left:30px;
-	top: 165%;
+	left:42%;
+	top: 35%;
 }
 
 #ph3 {
 	font-size: 20px;
 	position:absolute; 
-	left:30px;
-	top: 170%;
+	left:42%;
+	top: 40%;
 }
 
 #ph4 {
 	font-size: 20px;
 	position:absolute; 
-	left:30px;
-	top: 175%;
+	left:42%;
+	top: 45%;
 }
